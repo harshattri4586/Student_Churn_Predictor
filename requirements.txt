@@ -7,3 +7,5 @@ flask
 jupyter
 imbalanced-learn
 dill
+setuptools
+# -e

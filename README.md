@@ -203,7 +203,7 @@ The frontend allows users to input student details and get an instant churn pred
 
 ## 👤 Author
 
-** HARSHVARDHAN **
+ ** HARSHVARDHAN **
 - GitHub: [@harshattri4586](https://github.com/harshattri4586)
 
 ---

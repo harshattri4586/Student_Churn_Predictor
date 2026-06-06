@@ -57,7 +57,7 @@ student_churn_predictor/
 
 | Category | Tools |
 |---|---|
-| Language | Python 3. |
+| Language | Python 3.12+ |
 | ML Library | Scikit-learn |
 | Data Processing | Pandas, NumPy |
 | Imbalanced Data | imbalanced-learn (SMOTE) |

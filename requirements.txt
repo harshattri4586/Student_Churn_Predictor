@@ -8,4 +8,5 @@ jupyter
 imbalanced-learn
 dill
 setuptools
+imblearn
 # -e

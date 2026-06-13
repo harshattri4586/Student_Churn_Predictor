@@ -135,6 +135,8 @@ Flask Frontend     → User fills form → prediction displayed
 - GitHub: [@harshattri4586](https://github.com/harshattri4586)
 - Linkedin: [HarshAttri](https://www.linkedin.com/in/harsh-attri-b72ab2248/)
 
+- Live Demo: [StudentChurnPredictor](https://studentchurnpredictor-wwsvahbueeapi9jgjlxev4.streamlit.app/)
+
 ---
 
 ## 📄 License

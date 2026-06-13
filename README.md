@@ -1,3 +1,4 @@
+
 # 🎓 Student Churn Predictor
 
 An end-to-end Machine Learning project that predicts whether a student is likely to **drop out** based on academic, financial, and demographic features. Built with a production-grade pipeline architecture including data ingestion, transformation, model training, and a Flask web interface.
@@ -136,6 +137,8 @@ Flask Frontend     → User fills form → prediction displayed
 - Linkedin: [HarshAttri](https://www.linkedin.com/in/harsh-attri-b72ab2248/)
 
 - Live Demo: [StudentChurnPredictor](https://studentchurnpredictor-wwsvahbueeapi9jgjlxev4.streamlit.app/)
+
+- Classification Report: <img width="562" height="245" alt="Screenshot 2026-06-13 192125" src="https://github.com/user-attachments/assets/7c4763cd-d849-452d-b084-61dac4a37fc8" />
 
 ---
 

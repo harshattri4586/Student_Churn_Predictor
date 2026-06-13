@@ -9,4 +9,5 @@ imbalanced-learn
 dill
 setuptools
 imblearn
+streamlit
 # -e

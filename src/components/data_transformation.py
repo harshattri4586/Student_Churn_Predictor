@@ -53,10 +53,10 @@ class DataTransformation:
 
             target_column = 'Target'
 
-            X_train = train_df.drop(columns=[target_column], axis=1)
+            X_train = train_df.drop(columns=[target_column])
             y_train = train_df[target_column]
 
-            X_test = test_df.drop(columns=[target_column], axis=1)
+            X_test = test_df.drop(columns=[target_column])
             y_test = test_df[target_column]
 
             numerical_columns = X_train.columns.tolist()

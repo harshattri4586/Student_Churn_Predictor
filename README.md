@@ -128,83 +128,12 @@ Flask Frontend     → User fills form → prediction displayed
 
 ---
 
-## 🛠️ Setup & Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/student-churn-predictor.git
-cd student-churn-predictor
-```
-
-### 2. Create Virtual Environment
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Mac/Linux
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run Training Pipeline
-```bash
-python pipeline/train_pipeline.py
-```
-
-### 5. Start Flask App
-```bash
-python app.py
-```
-
-Then open your browser at `http://localhost:5000`
-
----
-
-## 🌐 Flask Web Interface
-
-The frontend allows users to input student details and get an instant churn prediction:
-
-- Fill in student academic and demographic details
-- Click **Predict**
-- Get result: **Likely to Drop Out** or **Likely to Continue**
-
----
-
-## 📂 Key Concepts Demonstrated
-
-- ✅ Custom logging and exception handling
-- ✅ Modular pipeline architecture (industry standard)
-- ✅ Prevention of data leakage using sklearn Pipelines
-- ✅ Handling class imbalance with SMOTE
-- ✅ Model serialization with pickle/dill
-- ✅ Separation of training and prediction pipelines
-- ✅ EDA with visualizations in Jupyter Notebook
-
----
-
-## 🧠 Interview Highlights
-
-> **"Why F1-Score over Accuracy?"**
-> The dataset has class imbalance. A model predicting 'No Dropout' always would get ~67% accuracy but catch zero actual dropouts. F1-Score penalizes such behavior.
-
-> **"How did you prevent data leakage?"**
-> Train-test split was done before any transformation. The preprocessor was fitted only on training data and saved as a pickle file — applied via `transform()` on test/new data.
-
-> **"Why separate Train and Predict pipelines?"**
-> Training runs once and saves the model. The prediction pipeline loads saved artifacts and runs on every new request — retraining on prediction would be computationally wrong and expensive.
-
----
 
 ## 👤 Author
 
  ** HARSHVARDHAN **
 - GitHub: [@harshattri4586](https://github.com/harshattri4586)
+- Linkedin: [HarshAttri](https://www.linkedin.com/in/harsh-attri-b72ab2248/)
 
 ---
 

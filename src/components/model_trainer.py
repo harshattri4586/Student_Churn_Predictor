@@ -94,7 +94,7 @@ class ModelTrainer:
 
             y_pred = best_model.predict(X_test)
             final_f1 = f1_score(y_test,y_pred)
-            # print(classification_report(y_test,y_pred))
+            print(classification_report(y_test,y_pred))
 
             return final_f1
         
